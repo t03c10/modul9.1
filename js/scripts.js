@@ -1,11 +1,11 @@
-
-
 var a, h;
 function getTriangleArea (a, h) {
-if (a <= 0 || h <= 0) {console.log('One of input data is 0')} else {
-return a*h/2
-
-}
+    if (a <= 0 || h <= 0) {
+        console.log('One of input data is 0');
+    } 
+    else {
+        return a*h/2;
+    }
 }
 console.log('Triangle area is:' + getTriangleArea(10,0));
 var triangle1Area = getTriangleArea(5,4);
